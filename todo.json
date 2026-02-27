@@ -1,0 +1,67 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "name": "John Show",
+      "profile": "https://tecdn.b-cdn.net/img/new/avatars/5.webp",
+      "age": 23
+    }
+  ],
+  "todos": [
+    {
+      "id": "1",
+      "body": "Buy groceries for the week",
+      "done": true
+    },
+    {
+      "id": "2",
+      "body": "Pick up dry cleaning",
+      "done": false
+    },
+    {
+      "id": "3",
+      "body": "Call mom for her birthday",
+      "done": false
+    },
+    {
+      "id": "4",
+      "body": "Schedule dentist appointment",
+      "done": false
+    },
+    {
+      "id": "5",
+      "body": "Pay electricity bill",
+      "done": true
+    },
+    {
+      "id": "6",
+      "body": "Walk the dog",
+      "done": false
+    },
+    {
+      "id": "7",
+      "body": "Reply to Sarah's email",
+      "done": false
+    },
+    {
+      "id": "8",
+      "body": "Take out the trash",
+      "done": true
+    },
+    {
+      "id": "9",
+      "body": "Water the plants",
+      "done": false
+    },
+    {
+      "id": "10",
+      "body": "Meal prep for tomorrow",
+      "done": false
+    },
+    {
+      "id": "a95b",
+      "body": "Make a meal plan",
+      "done": true
+    }
+  ]
+}
