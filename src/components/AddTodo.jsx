@@ -6,6 +6,7 @@ function AddTodo({onAdd}) {
 
     function handleChange(e){
         const {name, value} = e.target
+        // console.log(e.target.name)
         setNewTodo({...newTodo, [name]:value})
         
     }

@@ -9,11 +9,6 @@
   ],
   "todos": [
     {
-      "id": "1",
-      "body": "Buy groceries for the week",
-      "done": true
-    },
-    {
       "id": "2",
       "body": "Pick up dry cleaning",
       "done": false
@@ -66,11 +61,16 @@
     {
       "id": "74bf",
       "body": "take out the trash",
-      "done": false
+      "done": true
     },
     {
       "id": "aa4d",
       "body": "buy milk",
+      "done": false
+    },
+    {
+      "id": "a082",
+      "body": "Buy groceries for the week",
       "done": false
     }
   ]

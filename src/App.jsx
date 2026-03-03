@@ -18,15 +18,19 @@ function App(){
       try{
         const r = await fetch(`${jsonServerURL}/${url}`)
         const data =await r.json()
+        // console.log(data)
         setFunc(data)
+        return data
       }catch(error){
         console.log(error.message)
       }
     }
-    
-    handleFetch('user', setUser)
-    handleFetch('todos', setTodos)
-    
+
+    Promise.all([
+      handleFetch('user', setUser),
+      handleFetch('todos', setTodos)
+    ])
+    .then((values)=>{console.log(values)})
 
   },[jsonServerURL])
 
@@ -83,6 +87,8 @@ function App(){
   const displayedTodo=todos
     .filter((todo)=>todo.body.toLowerCase()
     .includes(search.toLowerCase()))
+
+  // console.log(displayedTodo)
 
   return (
     <main className='main'>
