@@ -23,11 +23,10 @@ function App(){
         console.log(error.message)
       }
     }
-
-    Promise.all([
-      handleFetch('user', setUser),
-      handleFetch('todos', setTodos)
-    ])
+    
+    handleFetch('user', setUser)
+    handleFetch('todos', setTodos)
+    
 
   },[jsonServerURL])
 
